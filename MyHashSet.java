@@ -5,7 +5,7 @@ import java.util.*;
 public class MyHashSet<T> implements Set<T> {
 
     private static final int DEFAULT_INITIAL_CAPACITY = 16;
-    private static final int MAXIMUM_CAPACITY = 1 << 30;
+    private static final int MAXIMUM_CAPACITY = 1073741824;
     private static final float DEFAULT_LOAD_FACTOR = 0.75f;
     private int myThreshold;
 
